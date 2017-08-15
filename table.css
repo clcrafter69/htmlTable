@@ -1,0 +1,81 @@
+
+body{
+    margin: 5rem;
+  
+}
+
+table,th,td{
+    border-collapse: collapse;
+}
+
+table{
+    float: left;
+    border: 5px solid lightslategray;
+    background-color: lightgrey;
+    border-spacing: 20px;
+    margin-right:3rem;
+    margin-bottom: 3rem;
+
+}
+caption{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+table tr:nth-child(odd) {
+    background-color:whitesmoke;
+}
+
+
+th{
+    color: whitesmoke;
+    background-color:magenta;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ table #twoTable{
+    color: whitesmoke;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th,td{
+    border: 1px solid lightslategray;
+    padding: 5px 15px 5px 15px;
+
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+ #twoTable tr:nth-child(1n +5) {
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+ #twoTable tr:last-child{
+    border: 5px solid lightslategray; 
+
+}
+
+.clsCenter
+{
+        text-align: center;
+}
+.clsright
+{
+    text-align: right;
+    border-top: 1px solid gray;
+    line-height: 20px;
+ }
+
+.clsColor{
+    background-color: plum;
+    text-align: left;
+}
+
+.cartWidth{
+   
+    width:60%;
+   
+}
